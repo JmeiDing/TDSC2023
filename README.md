@@ -23,7 +23,7 @@ pip install scikit-learn
 For each dataset, we randomly pick 80% of the data as the training set while the remaining are utilized for the testing set. 
 In the comparison, metrics accuracy, recall, precision, F1 score, TPR, FPR and AUC are all involved.
 The original dataset can be found in [CERT](https://kilthub.cmu.edu/articles/dataset/Insider_Threat_Test_Dataset)
-The normalized graph data can be found in [FEATURE](https://drive.google.com/file/d/1lKbeIeQ1EkjHzhgmLVYDfWrdG0Qrqa19/view?usp=sharing)
+The normalized graph data can be found in [DATA](https://drive.google.com/file/d/1lKbeIeQ1EkjHzhgmLVYDfWrdG0Qrqa19/view?usp=sharing)
 
 #### Dataset structure in this project
 The graph data of AB-I in the following structure respectively，AB-II and AB-III is the same as AB-I.
