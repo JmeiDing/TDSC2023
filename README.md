@@ -39,12 +39,12 @@ ${TDSC2023}
     │    └── graph_labels.txt
     │    └── node_labels.txt
     │    └── node_attributes.txt
-	├── rawdata
-	      ├── UBA1_3ss
-	    		  └── generation_data_batch
-	    		  └── session_node
-	    		  └── user_0
-	    		  └── user_1
+    ├── rawdata
+	 ├── UBA1
+	       └── generation_data_batch
+	       └── session_node
+	       └── user_0
+	       └── user_1
 
 ```
 * graph_A.txt (m lines):sparse (block diagonal) adjacency matrix for all graphs,
