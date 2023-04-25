@@ -85,7 +85,8 @@ ${TDSC2023}
               └── 4.all_graph.py
 ```
 
-The tool for abnomaly detection is as follows:
+
+A fully automatic tool for abnomaly detection.
 ```
 AOD-ASG.py
 ```
