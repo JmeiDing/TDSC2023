@@ -20,6 +20,7 @@ pip install scikit-learn
 ### Dataset
 For each dataset, we randomly pick 80% of the data as the training set while the remaining are utilized for the testing set. 
 In the comparison, metrics accuracy, recall, precision, F1-score, TPR, FPR and AUC are all involved.
+
 The original dataset can be found in [CERT](https://kilthub.cmu.edu/articles/dataset/Insider_Threat_Test_Dataset)
 
 The normalized graph data can be found in [DATA](https://drive.google.com/file/d/1lKbeIeQ1EkjHzhgmLVYDfWrdG0Qrqa19/view?usp=sharing),
@@ -57,31 +58,31 @@ ${TDSC2023}
     the value in the i-th line corresponds to the node with node_id i
 * node_attributes.txt (n lines):matrix of node attributes,
     the comma seperated values in the i-th line is the attribute vector of the node with node_id i
-* user_0 file:activity-Level feature dataset for normal users
-* user_1 file:activity-Level feature dataset for abnormal users
-* session_node file:session feature dataset for all users
-* generation_data_batch file:graph data for each user
+* user_0 file: activity-Level feature dataset for normal users
+* user_1 file: activity-Level feature dataset for abnormal users
+* session_node file: session feature dataset for all users
+* generation_data_batch file: graph data for each user
 
 ### Code Files
 The tools for extracting graph features (vectors) are as follows:
 ```
 ${TDSC2023}
 ├── graph_construction
-			├── user1
-			│		└── 1.build_folder.py
-			│		└── 2.session_feature.py
-			│		└── 3.graph_data.py 
-			│		└── 4.all_graph.py
-			├── user2
-			│		└── 1.build_folder.py
-			│		└── 2.session_feature.py
-			│		└── 3.graph_data.py 
-			│		└── 4.all_graph.py
-			├── user3
-					└── 1.build_folder.py
-					└── 2.session_feature.py
-					└── 3.graph_data.py 
-					└── 4.all_graph.py
+	├── user1
+	│     └── 1.build_folder.py
+	│     └── 2.session_feature.py
+	│     └── 3.graph_data.py 
+	│     └── 4.all_graph.py
+	├── user2
+	│     └── 1.build_folder.py
+	│     └── 2.session_feature.py
+	│     └── 3.graph_data.py 
+	│     └── 4.all_graph.py
+	├── user3
+	      └── 1.build_folder.py
+	      └── 2.session_feature.py
+	      └── 3.graph_data.py 
+              └── 4.all_graph.py
 ```
 
 ```
