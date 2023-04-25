@@ -48,15 +48,15 @@ ${TDSC2023}
 	       └── user_1
 
 ```
-* graph_A.txt (m lines):sparse (block diagonal) adjacency matrix for all graphs,
+* graph_A.txt (m lines) : sparse (block diagonal) adjacency matrix for all graphs,
 	each line corresponds to (row, col) resp. (node_id, node_id)
-* graph_indicator.txt (n lines):column vector of graph identifiers for all nodes of all graphs,
+* graph_indicator.txt (n lines) : column vector of graph identifiers for all nodes of all graphs,
 	the value in the i-th line is the graph_id of the node with node_id i
-* graph_labels.txt (N lines):class labels for all graphs in the dataset,
+* graph_labels.txt (N lines) : class labels for all graphs in the dataset,
 	the value in the i-th line is the class label of the graph with graph_id i
-* node_labels.txt (n lines)column vector of node labels,
+* node_labels.txt (n lines) : column vector of node labels,
     the value in the i-th line corresponds to the node with node_id i
-* node_attributes.txt (n lines):matrix of node attributes,
+* node_attributes.txt (n lines) : matrix of node attributes,
     the comma seperated values in the i-th line is the attribute vector of the node with node_id i
 * user_0 : activity-Level feature dataset for normal users
 * user_1 : activity-Level feature dataset for abnormal users
