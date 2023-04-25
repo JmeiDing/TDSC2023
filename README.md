@@ -58,10 +58,10 @@ ${TDSC2023}
     the value in the i-th line corresponds to the node with node_id i
 * node_attributes.txt (n lines):matrix of node attributes,
     the comma seperated values in the i-th line is the attribute vector of the node with node_id i
-* user_0 file: activity-Level feature dataset for normal users
-* user_1 file: activity-Level feature dataset for abnormal users
-* session_node file: session feature dataset for all users
-* generation_data_batch file: graph data for each user
+* user_0 : activity-Level feature dataset for normal users
+* user_1 : activity-Level feature dataset for abnormal users
+* session_node : session feature dataset for all users
+* generation_data_batch : graph data for each user
 
 ### Code Files
 The tools for extracting graph features (vectors) are as follows:
