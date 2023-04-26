@@ -1,5 +1,5 @@
 # TDSC2023
-This repo is a python implementation of user abnormal behavior detection using graph neural networks.
+This repo is a python implementation of behavioral anomaly detection using graph neural networks.
 
 ## Requirements
 ### Required Packages
