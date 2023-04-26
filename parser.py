@@ -4,8 +4,8 @@ def parameter_parser():
     # Experiment parameters
     parser = argparse.ArgumentParser(description='User behavior anomaly detection based on graph neural network')
     parser.add_argument('-D', '--dataset', type=str, default='UBA1_0',
-                        choices=['UBA1_0', 'UBA1_1g', 'UBA1_2s','UBA1_3ss','UBA2_0', 'UBA2_1g', 'UBA2_2s','UBA2_3ss',
-                                 'UBA3_0', 'UBA3_1g', 'UBA3_2s','UBA3_3ss','demo'])
+                        choices=['UBA1_0', 'UBA1_1g', 'UBA1_3ss','UBA2_0', 'UBA2_1g', 'UBA2_3ss',
+                                 'UBA3_0', 'UBA3_1g', 'UBA3_3ss','graphdata'])
     parser.add_argument('-M', '--model', type=str, default='gcn')
     parser.add_argument('--lr', type=float, default=0.02, help='learning rate')
     parser.add_argument('--lr_decay_steps', type=str, default='1,3', help='learning rate')
