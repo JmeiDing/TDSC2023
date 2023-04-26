@@ -41,7 +41,7 @@ ${TDSC2023}
     │    └── node_labels.txt
     │    └── node_attributes.txt
     ├── rawdata
-	 ├── UBA1_3ss
+	 ├── UBA1_0
 	       └── generation_data_batch
 	       └── session_node
 	       └── user_0
