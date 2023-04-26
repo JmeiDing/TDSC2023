@@ -102,8 +102,8 @@ AOD-ASG.py
 
 Examples:
 ```shell
-python AOD-ASG.py --dataset ./data/graphdata
-python AOD-ASG.py --dataset ./data/graphdata --model gcn --n_hidden 192 --lr 0.001 -f 64,64,64 --dropout 0.1 --vector_dim 100 --epochs 50 --lr_decay_steps 10,20 
+python AOD-ASG.py --dataset graphdata
+python AOD-ASG.py --dataset graphdata --model gcn --n_hidden 192 --lr 0.001 -f 64,64,64 --dropout 0.1 --vector_dim 100 --epochs 50 --lr_decay_steps 10,20 
 ```
 Using script：
 Repeating 10 times for different seeds with `train.sh`.
